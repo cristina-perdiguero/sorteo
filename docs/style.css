@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: linear-gradient( to right, #984394, #7484e9);
+    color: white;
+}
+.participantes{
+    margin: auto;
+}
+.lista{
+    min-height: 40vh;
+    padding: 20px;
+}
+.lista>div{
+    margin: 10px;
+}
+.ganador{
+    background-color: yellowgreen;
+}
+h1{
+    text-transform: uppercase;
+}
+button{
+    border: transparent;
+    border-radius: 50%;
+    padding: 10px;
+}
+button i {
+    color: yellowgreen; 
+}
+.cta{
+    background-color: yellowgreen;
+}
+.cta i{
+    color: white;
+}
+#participante{
+    margin: 0 10px;
+    border-color: transparent;
+    border-radius: 10px;
+}
